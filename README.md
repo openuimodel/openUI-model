@@ -2,7 +2,7 @@
 
 OpenUIModel is a description format for describing the content of CRUD user interfaces.
 
-It is designed to give a implementation neutral description of the entities and attributes that can be created and changed over a User Interface.
+It is designed to give an implementation neutral description of the entities and attributes that can be created and changed over a User Interface.
 
 Draft v0.0.1-SNAPSHOT:
 
