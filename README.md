@@ -11,9 +11,9 @@ model = [name], entities
 
 entities = entity, {entity}
 
-entity = name, id, attributes, attributes, relationOnly, [overviewComponent], [detailViewComponent];
+entity = name, id, attributes, relationOnly, [overviewComponent], [detailViewComponent]
 
-attributes = (attribute | attributeGroup | attributes), {attribute}, {attributeGroup};
+attributes = (attribute | attributeGroup), {attributes}
 
 # name of an entity, attribute, attributeGroup
 # Must be unique among it's group (entity, attribute, attributeGroup)
