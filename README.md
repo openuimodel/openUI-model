@@ -76,6 +76,7 @@ JSON example:
   "version": "1.0",
   "entities": [
     {
+      /* Entity Definition for 'Category' */
       "id": "e1",
       "name": "Category",
       "attributes": [
@@ -95,6 +96,7 @@ JSON example:
       ]
     },
     {
+      /* Entity Definition for 'Item' */
       "id": "e2",
       "name": "Item",
       "attributes": [
@@ -130,8 +132,8 @@ JSON example:
           "optional": false
         },
         {
-          // Attribute Group
-          // Repeating pairs of Properties as Name-Value pairs
+          /* Attribute Group */
+          /* Repeating pairs of Properties as Name-Value pairs */
           "id": "ag1",
           "name": "Property",
           "multiple": true,
